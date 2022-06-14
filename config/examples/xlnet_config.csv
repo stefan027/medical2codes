@@ -1,0 +1,16 @@
+name,XLNet256
+model_type,XLNet
+gpu,TRUE
+hidden_size,256
+update_transfomer_weights,True
+transformer_dropout,0.1
+attention_dropout,0.2
+learning_rate,3E-04
+lm_learning_rate,2E-05
+patience,5
+embed_labels,True
+batch_size,4
+embed_file,"/root/pretrained_word2vec/mimic3/mimic_w2v_model100.bin"
+embed_size,100
+update_word_embeddings,True
+embedding_dropout,0

@@ -1,0 +1,21 @@
+{
+    "GRU256": {
+        "model_type": "RNN",
+        "gpu": true,
+        "embed_file": "/root/pretrained_word2vec/mimic3/mimic_w2v_model100.bin",
+        "embed_size": 100,
+        "hidden_size": 256,
+        "attention_type": "labelembed",
+        "bidirectional": true,
+        "num_layers": 1,
+        "rnn_cell_type": "LSTM",
+        "update_word_embeddings": false,
+        "embedding_dropout": 0.2,
+        "rnn_dropout": 0.0,
+        "attention_dropout": 0.2,
+        "learning_rate": 0.001,
+        "patience": 5,
+        "attention": true,
+        "embed_labels": true
+    }
+}

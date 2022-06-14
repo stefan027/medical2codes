@@ -1,0 +1,16 @@
+name,MultiResCNN
+model_type,ResCNN
+gpu,TRUE
+embed_file,"/root/pretrained_word2vec/mimic3/mimic_w2v_model100.bin"
+embed_size,100
+update_word_embeddings,True
+embedding_dropout,0.2
+residual_dropout,0.2
+attention_dropout,0
+learning_rate,0.003
+patience,5
+attention,True
+embed_labels,False
+filter_size,"3,5,9,15,19,25"
+num_filter_maps,50
+conv_layer,1
