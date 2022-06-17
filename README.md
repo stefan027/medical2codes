@@ -9,6 +9,8 @@ Some of the codebase was adapted from previous work on this dataset, in particul
 
 The code was written for research purposes and, admittedly, contains some inelegant and hastily put-together bits of code to run some experiments :smile:; however, please let me know if you find any scientific errors.
 
+A small demo of the output of the model can be viewed [here](https://share.streamlit.io/stefan027/mimic_inference_frontend/00_%F0%9F%8F%A0_Home.py).
+
 ## Thesis Abstract
 
 Clinical coding is the process of describing and categorising healthcare episodes according to standardised ontologies. The coded data have important downstream applications, including population morbidity studies, health systems planning and reimbursement. Clinical codes are generally assigned based on information contained in free-form text clinical notes by specialist human coders. This process is expensive, time-consuming, subject to human error and burdens scarce clinical human resources with administrative roles. An accurate automatic coding system can alleviate these problems.
