@@ -9,7 +9,7 @@ Some of the codebase was adapted from previous work on this dataset, in particul
 
 The code was written for research purposes and, admittedly, contains some inelegant and hastily put-together bits of code to run some experiments :smile:; however, please let me know if you find any scientific errors.
 
-A small demo of the output of the model can be viewed [here](https://share.streamlit.io/stefan027/mimic_inference_frontend/00_%F0%9F%8F%A0_Home.py).
+A small demo of the output of the model can be viewed [here](https://stefan027-mimic-inference-frontend-00--home-0mgy5i.streamlitapp.com/).
 
 ## Thesis Abstract
 
